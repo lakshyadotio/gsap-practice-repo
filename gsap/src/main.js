@@ -1,14 +1,7 @@
 import gsap from "gsap";
 import './style.css'
 const box=document.querySelectorAll(".box")
-// gsap.fromTo(box,{
-//   x:-150,
-// },{
-//   x:1300,
-//   duration:2,
-//   ease:"expo.inOut",
-//   repeat:Infinity
-// })
+
 
 //masking effect 
 gsap.from(box,{
