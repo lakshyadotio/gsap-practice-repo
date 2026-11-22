@@ -1,0 +1,38 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html,body{
+height: 100%;
+width: 100%;
+background-color: black;
+}
+.box{
+  height: 100px;
+  width: 100px;
+
+}
+.box1{
+  background-color: red;
+}
+.box2{
+  background-color: rgb(101, 101, 194);
+}
+.box3{
+  background-color: aqua;
+}
+.box4{
+  background-color: cadetblue;
+}
+#app{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+button{
+  width: fit-content;
+  padding-inline: 0.5rem;
+  padding-block: 0.2rem;
+}
